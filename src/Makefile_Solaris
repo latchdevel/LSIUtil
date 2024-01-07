@@ -1,0 +1,2 @@
+lsiutil: lsiutil.c
+   gcc -Wall -O lsiutil.c -o lsiutil -D__sparc__ -ldevinfo
